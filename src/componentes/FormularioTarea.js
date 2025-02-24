@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-  
+import PropTypes from "prop-types";
 
-function Formulario() {
+function FormularioTarea({ agregarTarea }) {
   const [tarea, setTarea] = useState("");
 
-  const agregarTarea = (e) => {
+  const manejarEnvio = (e) => {
     e.preventDefault();
-    console.log(tarea);
-    alert(`Se ha agregado a la lista la siguiente tarea: ${tarea}`);
+    if (tarea.trim() === "") return;
+    agregarTarea(tarea);
     setTarea("");
   };
 
   return (
-    <form onSubmit={agregarTarea}>
+    <form onSubmit={manejarEnvio}>
       <div>
         <label>Agregar Tareas</label>
         <input
@@ -27,4 +27,8 @@ function Formulario() {
   );
 }
 
-export default Formulario;
+FormularioTarea.propTypes = {
+  agregarTarea: PropTypes.func.isRequired,
+};
+
+export default FormularioTarea;
