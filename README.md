@@ -1,15 +1,21 @@
-Lista de Tareas
-Descripción
-Lista de Tareas es una aplicación web desarrollada con React que permite a los usuarios agregar, completar y eliminar tareas de manera sencilla. La aplicación ofrece una interfaz limpia y funcional para gestionar tareas personales de forma eficiente.
+# Lista de Tareas
 
-Este proyecto fue una oportunidad para mejorar habilidades en React, gestión del estado y diseño de interfaces. Además, implementé interacciones básicas con el usuario, como marcar tareas como completadas y eliminar tareas de la lista.
+## Descripción
 
-Características
-Agregar tareas: Los usuarios pueden añadir nuevas tareas fácilmente.
-Marcar tareas como completadas: Permite marcar las tareas como completadas, visualizándolas con un estilo tachado.
-Eliminar tareas: Las tareas pueden ser eliminadas de la lista con un solo clic.
-Interfaz intuitiva: La aplicación es fácil de usar y está diseñada para ser clara y directa.
-Tecnologías Utilizadas
-React: Para la creación de la interfaz de usuario y la gestión del estado de la aplicación.
-JavaScript: Lógica del frontend y manejo de datos.
-HTML/CSS: Diseño y maquetado de la aplicación.
+**Lista de Tareas** es una aplicación web sencilla desarrollada con **React** que permite a los usuarios gestionar sus tareas. Los usuarios pueden agregar nuevas tareas, marcarlas como completadas y eliminarlas de la lista.
+
+Este proyecto es una excelente forma de practicar la integración de **React**, la gestión del estado y el diseño de interfaces interactivas.
+
+## Características
+
+- **Agregar tareas**: Los usuarios pueden añadir nuevas tareas con facilidad.
+- **Marcar tareas como completadas**: Las tareas se pueden marcar como completadas, cambiando su estilo visual (tachado).
+- **Eliminar tareas**: Las tareas pueden eliminarse de la lista.
+- **Interfaz intuitiva**: La interfaz es simple, clara y fácil de usar.
+
+## Tecnologías Utilizadas
+
+- **React**: Framework utilizado para la creación de la interfaz de usuario y la gestión del estado.
+- **JavaScript**: Lógica del frontend y manipulación de datos.
+- **HTML / CSS**: Maquetado y estilo de la aplicación.
+
